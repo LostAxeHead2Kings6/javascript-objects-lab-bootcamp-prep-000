@@ -1,4 +1,4 @@
-recipes = {};
+recipes = Object.create()
 
 function updateObjectWithKeyAndValue(object, key, value) {
   clone = object;
