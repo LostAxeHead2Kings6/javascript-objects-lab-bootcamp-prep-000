@@ -1,8 +1,9 @@
 recipes = {}
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  object.key = value;
-  object
+  clone = object
+  clone.key = value;
+  clone
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
